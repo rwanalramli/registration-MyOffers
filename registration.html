@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-cmpatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Registration</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap_rtl.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+
+<body class="registration">
+    <main class="content" role="content">
+
+        <section id="registration">
+            <div class="container">
+
+                <div class="form-wrapper">
+
+                    <!-- MultiStep Form -->
+                    <form class="form" id="regForm" action="">
+                        <!-- One "tab" for each step in the form: -->
+                        <div class="tab">
+                            <div class="row">
+                                <div class="form-group col-lg-6">
+                                    <label class="form-label" for="inputName">الاسـم كـامـلا</label>
+                                    <input id="last" type="text" class="form-input motion " type="text" />
+                                </div>
+
+                                <div class="form-group col-lg-6">
+                                    <label class="form-label" for="inputEmail">الـبريـــد الإلكترونـي</label>
+                                    <input id="first" type="email" class="form-input motion" type="text" />
+                                </div>
+
+                                <div class="form-group col-lg-6 mobileNumber">
+                                    <label class="form-label" for="inputEmail">رقم الجوال</label>
+                                    <input id="first" type="text" class="form-input motion" type="text" />
+
+                                    <select class="form-control pinCode" id="city">
+                                        <option selected>+966</option>
+                                        <option>+972</option>
+                                        <option>+961</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group col-lg-6">
+                                    <label for="gender1" class="form-label control-label">الجنس</label>
+                                    <div class="selectGender">
+                                        <label class="radioContainer">ذكر
+  <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+                                        </label>
+                                        <label class="radioContainer">أنثى
+  <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+                                        </label>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="form-group col-lg-6">
+                                    <label class="form-label" for="date">تاريخ الميلاد </label>
+
+                                    <input class="form-control pick-date" type="date" value="2019-05-16" id="example-date-input">
+
+                                </div>
+
+                                <div class="form-group col-lg-6">
+                                    <label for="country" class="form-label control-label">الـدولـــة</label>
+                                    <select class="form-control country" id="country">
+                                        <option selected>السـعوديــة</option>
+                                        <option>الإمارات</option>
+                                    </select>
+
+                                </div>
+
+                                <div class="form-group col-lg-6">
+                                    <label for="city" class="form-label control-label">الـمـدينــة</label>
+                                    <select class="form-control country" id="city">
+                                        <option selected>الرياض</option>
+                                        <option>جدة</option>
+                                    </select>
+
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label for="accountLanguage" class="form-label control-label">لغــة الحســـاب</label>
+                                    <select class="form-control country" id="accountLanguage">
+                                        <option selected>العربية</option>
+                                        <option>English</option>
+                                    </select>
+
+                                </div>
+
+                                <div class="form-group col-lg-6">
+                                    <label class="form-label" for="first">كلمة المرور </label>
+                                    <input id="first" type="password" class="form-input motion" type="text" />
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label class="form-label" for="last">إعـادة كلمة المرور </label>
+                                    <input id="last" type="password" class="form-input motion" type="text" />
+                                </div>
+
+                                <div class="form-group form-check col-lg-6">
+
+                                    <label class="radioContainer agree">
+    <input type="checkbox" class="form-check-input agree" id="materialUnchecked">
+أوافق علـى سياسـة خصوصيـة الموقـع
+                                    </label>
+                                </div>
+                                <a href="#" type="submit" id="nextBtn" onclick="nextPrev(1)" class="btn btn-primary">أنـشـئ حـســابــك</a>
+                            </div>
+
+                        </div>
+                        <div class="tab confirmTab">
+                                 <img src="assets/img/logo-img.png">
+                    <div class="verifyCode">
+                    <a class="btn btn-primary sendCode">ارسال كود التحقق</a>
+                    <div class="spinner-border text-warning" role="status">
+                          <span class="sr-only">Loading...</span>
+                       </div> </div>
+
+                    <p>ادخل كود التفعيل للتأكد من حسابك</p>
+
+                        <input type="text" id="pincode-input1">
+
+                    <button type="submit" class="btn btn-primary">تـفـعـيـــل</button>
+
+                        </div>
+
+                        </div>
+                        <!-- Circles which indicates the steps of the form: -->
+                        <div class="tabIndicators">
+                            <span class="step"></span>
+                            <span class="step"></span>
+                        </div>
+                    </form>
+                    <!-- /.MultiStep Form -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- /content -->
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap-pincode-input.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+</body>
+
+</html>

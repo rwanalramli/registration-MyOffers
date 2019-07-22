@@ -1,0 +1,536 @@
+@font-face {
+    font-family: 'DIN Next LT Arabic';
+    src: url('../fonts/DINNextLTArabic-Light.eot');
+    src: url('../fonts/DINNextLTArabic-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/DINNextLTArabic-Light.woff2') format('woff2'), url('../fonts/DINNextLTArabic-Light.woff') format('woff'), url('../fonts/DINNextLTArabic-Light.ttf') format('truetype'), url('../fonts/DINNextLTArabic-Light.svg#DIN Next LT Arabic') format('svg');
+}
+/* Start Scroll To Top Section */
+
+#scroll-top {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    right: 15px;
+    bottom: 20px;
+    z-index: 9999;
+    opacity: 0.6;
+    color: #cacaca;
+    border: 1px solid #cacaca;
+    background-color: #636363;
+    line-height: 40px;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+#scroll-top:hover {
+    opacity: 1;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    line-height: 30px;
+    transition-duration: 0.2s;
+}
+
+#scroll-top i {}
+
+/* start forgotPassword Page */
+.forgotPassword {
+  background-color: #f86500;
+  font-family: 'DIN Next LT Arabic';
+  text-align: center;
+
+}
+.container{
+
+}
+
+.forgotPassword h2{
+    color: #f86500;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.forgotPassword img{
+      margin: 15px auto;
+      width: 150px;
+}
+
+.forgotPassword p{
+      color: #f86500;
+      margin: 0px 0 30px 0;
+      font-size: 18px;
+      font-weight: 600;
+}
+
+.forgotPassword form.form{
+
+}
+.forgotPassword .form-wrapper {
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 40%;
+    min-width: 300px;
+    padding: 40px 30px 30px 30px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.forgotPassword .form-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.forgotPassword .form-label {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  color: #000000;
+  background-color: #fff;
+  z-index: 10;
+  font-size: 18px;
+  font-weight: 600;
+  transition: transform 300ms ease-out, font-size 300ms ease-out;
+}
+
+.forgotPassword .focused .form-label {
+  transform: translateY(-125%);
+    font-size: 13px;
+}
+
+.forgotPassword .form-input {
+  position: relative;
+  padding: 15px 20px 5px 0;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 0 0 #f86500;
+  transition: box-shadow 150ms ease-out;
+}
+
+.forgotPassword .form-input.filled {
+  box-shadow: 0 1px 0 0 #f86500;
+}
+
+.forgotPassword .btn-primary {
+    margin: 20px auto;
+    padding: 10px 0;
+    background-color: #f86500;
+    border-color: #f86500;
+    width: 85%;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+        font-family: 'DIN Next LT Arabic';
+
+}
+
+.forgotPassword .btn-primary:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+.forgotPassword .btn-primary:focus{
+    background:#000000;
+}
+/* End forgotPassword Page */
+.registration {
+    background-color: #f86500;
+    font-family: 'DIN Next LT Arabic';
+    text-align: center;
+}
+
+/* start registration Page */
+
+.registration h2 {
+    color: #f86500;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.registration img {
+    margin: 20px 0 50px auto;
+    width: 130px;
+}
+
+.registration p {
+    color: #f86500;
+    margin: 0px 0 35px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.registration form.form {}
+
+.registration .form-wrapper {
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 80%;
+    min-width: 300px;
+    padding: 50px 30px 50px 30px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.registration .form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.registration .form-label {
+    position: absolute;
+    right: 82px;
+    top: 8px;
+    color: #000000;
+    background-color: #fff;
+    z-index: 10;
+    font-size: 18px;
+    font-weight: 600;
+    transition: transform 300ms ease-out, font-size 300ms ease-out;
+}
+
+.registration .focused .form-label {
+    transform: translateY(-125%);
+    font-size: 13px;
+}
+
+.registration .form-input {
+    /* background: #EEE; */
+    /* cursor: pointer; */
+    position: relative;
+    padding: 15px 20px 10px 0;
+    width: 75%;
+    outline: 0;
+    border: 0;
+    margin-bottom: 15px;
+    box-shadow: 0 1px 0 0 #f86500;
+    transition: box-shadow 150ms ease-out;
+}
+
+.registration .form-input.filled {
+    box-shadow: 0 1px 0 0 #f86500;
+}
+
+.registration a.btn-primary {
+    margin: auto;
+    padding: 10px 0;
+    background-color: #f86500;
+    border-color: #f86500;
+    width: 51%;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.registration .btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    background-color: #333;
+    border-color: #333;
+}
+
+.registration .btn-primary:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+.registration .selectGender {
+    margin-right: 104px;
+    margin-top: 11px;
+}
+
+
+/* The radioContainer */
+
+.registration .radioContainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-right: 60px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    float: right;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+select::-ms-expand {
+    display: none;
+}
+
+
+
+.registration .form-control.country {
+    margin-top: 46px;
+    margin-right: 50px;
+    width: 74%;
+    border: 1px solid #f86500;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 24px;
+    padding-top: 0px;
+}
+
+.registration .form-control option {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff
+}
+
+.registration .mobileNumber {
+    position: relative;
+}
+
+.registration .mobileNumber .form-input {
+    text-align: left;
+    padding-left: 70px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.registration .form-control.pinCode {
+    position: absolute;
+    top: 6px;
+    left: 58px;
+    width: 18%;
+    border: 1px solid #f86500;
+    border: navajowhite;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: none !important;
+}
+
+.registration .form-control.pick-date {
+    margin-top: 46px;
+    margin-right: 50px;
+    width: 74%;
+    border: 1px solid #f86500;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 24px;
+    padding-top: 0px;
+
+}
+
+.registration .form-check {}
+.registration .form-check-input {
+    margin-top: -15px;
+    margin-right: -30px;
+
+  }
+.registration .form-check-label {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.registration .radioContainer.agree {
+    float: none;
+}
+.registration .radioContainer.agree .checkmark {
+    right: 0;
+}
+
+.registration .form-check-input.agree{
+  margin-top: 8px;
+    margin-right: -18px;
+}
+.registration .tabIndicators {
+    margin-top: 20px;
+}
+
+/* ----------------------------- */
+
+/* Hide all steps by default: */
+.registration .tab {
+    display: none;
+}
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
+}
+#prevBtn {
+    background-color: #bbbbbb;
+}
+
+/* Step marker: Place in the form. */
+.registration .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #f86500;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+.registration .step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.registration .step.finish {
+    background-color: #4CAF50;
+}
+
+
+.confirmTab {
+
+  text-align: center;
+
+}
+.container{
+
+}
+
+.confirmTab h2{
+    color: #f86500;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.confirmTab img{
+      margin: 0 auto;
+      width: 135px;
+      display: block;
+}
+
+.confirmTab p{
+      color: #f86500;
+      margin: 10px 0 30px 0;
+      font-size: 16px;
+      font-weight: 600;
+}
+
+.confirmTab form.form{
+
+}
+.confirmTab .form-wrapper {
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 40%;
+    min-width: 300px;
+    padding: 40px 30px 30px 30px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.confirmTab .form-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.confirmTab .form-label {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  color: #000000;
+  background-color: #fff;
+  z-index: 10;
+  font-size: 18px;
+  font-weight: 600;
+  transition: transform 300ms ease-out, font-size 300ms ease-out;
+}
+
+.confirmTab .focused .form-label {
+  transform: translateY(-125%);
+    font-size: 13px;
+}
+
+.confirmTab .form-input {
+  position: relative;
+  padding: 15px 20px 5px 0;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 0 0 #f86500;
+  transition: box-shadow 150ms ease-out;
+}
+
+.confirmTab .form-input.filled {
+  box-shadow: 0 1px 0 0 #f86500;
+}
+
+.confirmTab .btn-primary {
+    margin: 35px auto 0px auto;
+    padding: 10px 0;
+    background-color: #f86500;
+    border-color: #f86500;
+    width: 50%;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'DIN Next LT Arabic';
+}
+.confirmTab .verifyCode{
+  
+margin: 30px 0 15px 0;
+}
+.confirmTab .btn-primary.sendCode{width: 50%;margin: 0 20px;color: #ffffff;font-size: 17px;}
+
+.text-warning {
+    color: #f86500!important;
+}
+
+.touchwrapper.touch4{
+
+}
+.confirmTab .btn-primary:hover {
+    background-color: #333;
+    border-color: #333;
+    color: #ffffff !important;
+}
+
+.confirmTab .btn-primary:focus{
+    background:#000000;
+}
+
+/*************************/
+
+.confirmTab .pincode-input-container{
+  direction: ltr;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow:none !important;
+  border:1px solid #422918;
+}
+.confirmTab .form-control.pincode-input-text{width: 6%;display: inline;border: none;margin: 0 5px;border-bottom: 2px solid #f86500;border-radius: 0px;font-size: 18px;font-weight: bold;color: #333;text-align: center;}
+
+.confirmTab .spinner-border{
+  height: 23px;
+  width: 23px;
+  visibility: hidden;
+}
+.confirmTab .form-control.pincode-input-text.first{}
+.confirmTab .form-control.pincode-input-text.mid{}
+.confirmTab .form-control.pincode-input-text.last{}
+
+
+/* end registration Page */
+
+
+/* -------------------------------------------------- */
